@@ -1,0 +1,49 @@
+body {
+    background-color: rgb(161, 233, 161);
+}
+li > a {
+    color: rgb(47, 158, 47);
+}
+ul {
+    padding-inline-start:0px;
+    display:inline;
+}
+ul[class="podlinki"] > li {
+    padding:15px;
+    padding:10px;
+    display:inline;
+}
+ul[class="linki"] > li {
+    font-weight: bold;
+    padding:10px;
+    display:inline;
+}
+h3 {
+    padding:10px;
+    background-color: rgb(26, 102, 26) ;
+    color:rgb(198, 241, 198);
+}
+h2 {
+    padding:10px;
+    background-color: rgb(125, 209, 125);
+    color:rgb(198, 241, 198);
+}
+
+th {
+    background-color:rgb(125, 209, 125);
+    text-align: center;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+td {
+    text-align: center;
+    border-bottom: 1px solid rgb(125, 209, 125);
+    padding: 3px;
+    letter-spacing: 3px; ;
+}
+
+p[class="stopka"] {
+    padding-bottom:20px;
+    padding-top:20px;
+    border-bottom: 1px solid rgb(125,209,125);
+}
